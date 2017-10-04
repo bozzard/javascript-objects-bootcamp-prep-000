@@ -11,7 +11,7 @@ function removeFromPlaylist(playlist, artistName){
   console.log('playlist = ', playlist);
   console.log('artistName = ', artistName);
 
-  
+
   delete playlist[artistName];
   playlist;
   console.log(playlist);
