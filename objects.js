@@ -10,14 +10,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 function removeFromPlaylist(playlist, artistName){
-console.log(playlist);
-  delete playlist.artistName;
+
+  delete playlist[artistName];
   playlist;
   console.log(playlist);
   return playlist;
-}
-function removeFromPlaylist(meals , dinner){
-
-  delete meals[dinner];
-  return meals;
 }
