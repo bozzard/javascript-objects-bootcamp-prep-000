@@ -15,3 +15,8 @@ console.log(playlist);
   console.log(playlist);
   return playlist;
 }
+function removeFromPlaylist(meals , dinner){
+
+  delete meals.dinner;
+  return playlist;
+}
