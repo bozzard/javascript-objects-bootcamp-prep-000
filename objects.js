@@ -12,11 +12,12 @@ function updatePlaylist(playlist, artistName, songTitle) {
 function removeFromPlaylist(playlist, artistName){
 console.log(playlist);
   delete playlist.artistName;
+  playlist;
   console.log(playlist);
   return playlist;
 }
 function removeFromPlaylist(meals , dinner){
 
   delete meals.dinner;
-  return playlist;
+  return meals;
 }
