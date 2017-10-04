@@ -1,4 +1,4 @@
 var playlist = {
-  name: ["john bon jovi", "sandra nasic"],
-  title: "armageddon"
+  artistName: ["john bon jovi", "sandra nasic"],
+  songTitle: ["armageddon", "path"]
 };
