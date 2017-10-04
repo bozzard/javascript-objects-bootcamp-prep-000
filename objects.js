@@ -18,6 +18,6 @@ console.log(playlist);
 }
 function removeFromPlaylist(meals , dinner){
 
-  delete meals.dinner;
+  delete meals[dinner];
   return meals;
 }
