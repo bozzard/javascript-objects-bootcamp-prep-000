@@ -10,7 +10,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
 function removeFromPlaylist(playlist, artistName){
   console.log('playlist = ', playlist);
   console.log('artistName = ', artistName);
-console.log(playlist.artistName);
+  console.log(playlist.artistName);
+  console.log(playlist[artistName]);
 delete playlist.Kanye ;
 //  delete playlist[artistName];
   playlist;
